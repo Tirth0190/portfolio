@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-content {
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    margin-right: 3%;
+  }
+  
+  h1,
+  h2 {
+    font-weight: 600;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .header-text {
+    text-align: left;
+  }
+  
+  .contact-details {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 500;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
+  #profile p,
+  #experience p,
+  #education p,
+  #projects p,
+  #hobbies p,
+  #certifications ul,
+  footer p {
+    margin-bottom: 25px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #3498db;
+    font-size: 1.8em;
+  }
+  
+  hr {
+    border-top: 1px solid #3498db;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    background-color: #f9f9f9;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  .image{
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
